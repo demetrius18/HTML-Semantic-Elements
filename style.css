@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+#navbar {
+    list-style-type: none;
+    padding: 0;
+    max-width: 200px;
+    background-color: #ef476f;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+#navbar a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#navbar header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: -50px;
+}
+
+#navbar a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.main-section {
+    margin-left: 220px;
+}
+
+header {
+    font-size: 30px;
+    font-family: Nunito sans;
+    color: #073b4c;
+}
+
+.posts {
+    width: 90%;
+    padding: 0;
+    margin: 0 auto 1em auto;
+}
+
+.posts-title {
+    font-size: 2em;
+}
+
+.post {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    min-width: 15em;
+    margin: .25em 0;
+    padding: .5em 1em 1em 1em;
+    border: .0625em solid #2a9d8f;
+    vertical-align: top;
+    line-height: normal;
+}
+
+.post-tags {
+    display: none;
+    box-sizing: inherit;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #70f;
+    padding: 1em;
+}
+
+.left {
+    margin-left: 150px;
+    margin-top: 16px;
+}
+
+ul {
+    float: right;
+    width: 200px;
+
+}
+
+aside {
+    display: inline-flex;
+}
+
+aside li {
+
+    background-color: #90e0ef;
+    border-radius: 5px;
+    color: black;
+    list-style-type: maker;
+    margin: 10px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.float {
+    float: right;
+    width: 30%;
+    border-top: solid 5px #555;
+    background-color: #f6f6f6;
+    margin: 0 0 0 10px;
+    padding: 0 10px
+}
+
+div {
+    margin: 40px;
+}
+
+.title {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media(min-width:800px) {
+    #navbar body {
+        position: block;
+        margin: 0px;
+        height: auto;
+    }
+}

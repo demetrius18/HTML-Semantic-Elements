@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Semantic Element</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main id="main">
+        <nav id="navbar">
+            <header class="heading">HTML Semantic Elements</header>
+            <ul>
+                <a href="#Article" class="nav-link">
+                    <li>Article</li>
+                </a>
+                <a href="#Aside" class="nav-link">
+                    <li>Aside</li>
+                </a>
+                <a href="#Figure" class="nav-link">
+                    <li>Figure</li>
+                </a>
+                <a href="#Figcaption" class="nav-link">
+                    <li>Figcaption</li>
+                </a>
+                <a href="#Mark" class="nav-link">
+                    <li>Mark-Time</li>
+                </a>
+                <a href="#Details" class="nav-link">
+                    <li>Details</li>
+                </a>
+            </ul>
+        </nav>
+        <section class="main-section" id="Article">
+            <header class="intro">Article</header>
+            <h1 class="posts-title">Posts</h1>
+            <article class="post tag">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quas consectetur, quaerat iusto et sapiente cumque nobis beatae architecto amet quos obcaecati aspernatur, reprehenderit ad error blanditiis itaque, id. Officiis, ratione.</p>
+            </article>
+            <article class="post tag">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quas consectetur, quaerat iusto et sapiente cumque nobis beatae architecto amet quos obcaecati aspernatur, reprehenderit ad error blanditiis itaque, id. Officiis, ratione.</p>
+            </article>
+            <article class="post tag">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quas consectetur, quaerat iusto et sapiente cumque nobis beatae architecto amet quos obcaecati aspernatur, reprehenderit ad error blanditiis itaque, id. Officiis, ratione.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Aside">
+            <header>Aside</header>
+            <h1>Example 1</h1>
+            <aside>
+                <img class="left" src="images/workplace.jpg" alt="">
+                <ul>
+                    <li>Lorem ipsum, dolor.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, exercitationem.</li>
+                    <li>Lorem ipsum, dolor.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, <li>Lorem ipsum, dolor.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, exercitationem.</li>
+                </ul>
+            </aside>
+            <h1>Example 2</h1>
+            <h3>The content at the right side is inside the aside element!</h3>
+            <article>
+                <aside class="float" ">
+                    <p>The new vesion has many new features.</p>
+                </aside>
+                <p>
+                    HTML-5 (Hypertext Markup Language, version 5), is a language used to design website and applications. It is the fifth version of HTML, which came with many new features and elements for better graphics, page structure etc.
+                </p>
+            </article>
+        </section>
+        <br>
+        <section class=" main-section" id="Figure">
+                    <header>Figure</header>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, at?</p>
+                    <figure>
+                        <img src="images/html.png" alt="Html" style="width:30%">
+                        <figcaption>Fig.1 - Html</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/css.png" alt="Html" style="width:30%">
+                        <figcaption>Fig.1 - Learn Html</figcaption>
+                    </figure>
+        </section>
+        <section class="main-section" id="Figcaption">
+            <header>Figcaption</header>
+            <div>
+                <figure>
+                    <img src="images/online-web-design.jpg" />
+                    <figcaption class="img-content">
+                        <h3 class="title">Web Design</h3>
+                        <h4 class="category">Html</h4>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="main-section" id="Mark">
+            <header>Mark-Time</header>
+            <div>
+                <h1>The mark element</h1>
+                <p>Do not forget to buy <mark>milk</mark> today.</p>
+            </div>
+            <div>
+                <h1>The time element</h1>
+                <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+                <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+                <p><b>Note:</b> The time element does not render as anything special in any of the major browsers.</p>
+            </div>
+        </section>
+        <section class="main-section" id="Details">
+            <header>Details</header>
+            <div>
+                <h1>The details element</h1>
+                <details>
+                    <summary>Epcot Center</summary>
+                    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
